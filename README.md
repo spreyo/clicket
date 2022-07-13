@@ -12,3 +12,4 @@ To add a new sound pack, navigate to the ***./sounds*** directory , create a new
 # Screenshots
 
 ![](/clicket.png?raw=true)
+![](/clicketApp.png?raw=true)
