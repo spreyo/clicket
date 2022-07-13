@@ -1,11 +1,14 @@
+
 # clicket
-Inspired by  hainguyents13's [Mechvibes](https://github.com/hainguyents13/mechvibes), clicket is an app  that plays clicking sounds when you click your mouse. Clicket uses  the ElectronJS framework and React.
+Inspired by  hainguyents13's [Mechvibes](https://github.com/hainguyents13/mechvibes), clicket is an app  that plays clicking sounds when you click your mouse. Clicket uses  the ElectronJS framework and React. I made this as a side project because I use Mechvibes all the time and I felt like keyboard sounds just weren't enough.
 
 # installing
 >later
 # Adding custom sounds
-Adding custom sound packs is simple, all you need to do is create a new folder in the ***/sounds/*** directory, and put the sound file ***click.mp3*** in it.
+To add a new sound pack, navigate to the ***./sounds*** directory , create a new folder and put the ***click.mp3*** in it.
 
 >   ./sounds/MyCustomPack/click.mp3
 
 # Screenshots
+
+![](/img.png?raw=true)
