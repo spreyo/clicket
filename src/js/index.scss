@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+
+html {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+body {
+  background-color: transparent;
+}
+
+.content {
+  width: 400px;
+  height: 600px;
+  background-color: #082540;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 2px #061c31 solid;
+}
+
+#mainTitle {
+  text-align: center;
+  color: #478d73;
+  background: rgb(50,52,62);
+  background: linear-gradient(90deg, rgba(50,52,62,1) 0%, rgba(64,76,84,1) 15%, rgba(71,141,115,1) 100%, rgba(0,0,0,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: paloseco;
+  font-size: 15vw;
+  margin-top: 5vw;
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+@font-face {
+  font-family: antipasto;
+  src: url("Antipasto-Pro-ExtraBold-trial.ttf");
+}
+
+@font-face {
+  font-family: paloseco;
+  src: url("PalosecoMedium-ZxWl.ttf");
+}
+
+.titleBar {
+  -webkit-app-region: drag;
+  background-color: #5ba95d;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 340px;
+  height: 25px;
+}
+
+.titleBar h1 {
+  text-align: center;
+  font-size: 5vw;
+  transform: translateX(168px);
+  width: 20px;
+}
+
+.titleBar {
+  position: relative;
+  z-index: 1;
+  // display: grid;
+  // grid-auto-columns: 1fr;
+  // grid-auto-rows: 1fr;
+  // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  // grid-template-rows: 1fr;
+  // gap: 0px 0px;
+  // grid-template-areas: ". . . h1 . close";
+}
+
+#close {
+  background-color: #ff5e5e;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  z-index: 100;
+  transform: translate(370px, -22px);
+  transition: 0.5s;
+}
+#close:hover {
+  cursor: pointer;
+  background-color: #ac4a4a;
+}
+
+#hide {
+  background-color: #ffe9a2;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  transform: translate(345px, -22px);
+  transition: 0.5s;
+}
+
+#hide:hover {
+  cursor: pointer;
+  background-color: #ad9e6a;
+}
+
+#clickSounds {
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  position: absolute;
+  left: 30%;
+  background-color: #446b6a;
+  border: 2px solid #478d73;
+  color: white;
+}
+
+#clickSounds option {
+}
+
+#clickSounds:focus {
+  border: 2px solid #082540;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#volume {
+  width: 150px;
+  transform: translate(120px, 150px);
+  border-radius: 15px;
+  // height: 20px;
+  overflow: hidden;
+}
+
+#volume::-webkit-slider-runnable-track {
+  // background-color: #ffffff;
+}
+#volumeLabel {
+  width: fit-content;
+  transform: translate(32.5vw, 150px);
+  font-family: "Nunito", sans-serif;
+
+  color: #4ac296;
+  user-select: none;
+}
+
+#volume::-webkit-slider-thumb {
+  background-color: #4ac296;
+}
+
+.custom-range::-moz-range-thumb {
+  background: gray;
+}
+
+.custom-range::-ms-thumb {
+  background: gray;
+}
+
+#volumeValue {
+  transform-origin: center;
+  transform: translate(170px, 150px);
+  margin: 0px;
+  width: max-content;
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  color: white;
+  user-select: none;
+}
+
+#footer{
+  transform: translate(35vw, 315px);
+  color: #0f406d;
+  user-select: none;
+}
+
+.content a{
+  color: #8d5dff;
+}
