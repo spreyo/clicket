@@ -6,8 +6,8 @@ Inspired by  hainguyents13's [Mechvibes](https://github.com/hainguyents13/mechvi
 # Installing
 The app is currently only available for windows, but I plan on adding support for more platforms.
 
-**Windows**
-To install the app, download the  setup from [releases](https://github.com/spreyo/clicket/releases)  and follow the instructions. 
+### Windows 
+To install the app on Windows, download the  setup file from [releases](https://github.com/spreyo/clicket/releases)  and follow the instructions. 
 # Sound Packs
 Currently, there are 8 default sound packs pre-installed, but it is possible to add your own packs.
 
